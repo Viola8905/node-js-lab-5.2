@@ -15,4 +15,4 @@ participantRouter.get("/:id",participantController.getById);
 participantRouter.post("/",participantController.addCollection);
 
 
-module.exports = pa
+module.exports =  participantRouter;
